@@ -1,7 +1,9 @@
+//Developed by Md Mahfuzur Rahman Arif
+//Software Engineer, Agami Soft Ltd.
+
 window.onload = () => {
 	console.log("global hello");
 	if (window.location.href.includes("presentation")) {
-		// console.log("inside hello");
 		const btn = document.createElement("button");
 		btn.textContent = "Toggle";
 		btn.title = "show/hide sidebar";

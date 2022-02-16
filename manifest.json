@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Google slide sidebar toggler",
-	"description": "An extenstion show-hide google slide filmstrip sidebar",
+	"description": "An extenstion to show-hide google slide filmstrip sidebar",
 	"version": "1.0",
 	"action": {
 		"default_title": "Google Slide Sidebar Toggler v1.0",
