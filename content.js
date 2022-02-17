@@ -16,12 +16,12 @@ window.onload = () => {
 		btn.style.textAlign = "center";
 		btn.style.display = "inline-block";
 		btn.style.borderRadius = "7px";
-		btn.style.marginLeft = "20px";
+		btn.style.marginRight = "20px";
 
 		let docs_toolbar = document.getElementById("docs-toolbar");
 		let _filmstrip = document.getElementsByClassName("filmstrip");
 
-		docs_toolbar.appendChild(btn);
+		docs_toolbar.prepend(btn);
 		_filmstrip[0].style.display = "block";
 
 		btn.addEventListener("click", () => {
